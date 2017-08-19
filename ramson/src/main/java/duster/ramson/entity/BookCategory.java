@@ -32,8 +32,7 @@ public class BookCategory {
     }
 
     public void setName(String name) {
-     System.out.println("test");
-    	this.name = name;
+        this.name = name;
     }
 
     @OneToMany(mappedBy = "bookCategory", cascade = CascadeType.ALL)
