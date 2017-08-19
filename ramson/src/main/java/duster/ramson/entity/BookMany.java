@@ -42,6 +42,7 @@ public class BookMany{
     @ManyToOne
     @JoinColumn(name = "book_category_id")
     public BookCategory getBookCategory() {
+    	System.out.println("test");
         return bookCategory;
     }
 
