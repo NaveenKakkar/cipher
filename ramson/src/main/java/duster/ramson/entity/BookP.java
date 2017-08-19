@@ -25,6 +25,7 @@ public class BookP{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public int getId() {
+    	System.out.println("test");
         return id;
     }
 
