@@ -30,6 +30,7 @@ public class BookP{
     }
 
     public void setId(int id) {
+    	System.out.println("test");
         this.id = id;
     }
 
